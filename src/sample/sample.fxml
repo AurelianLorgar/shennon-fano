@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="38.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Исходный текст" />
+      <TextField fx:id="textFieldOriginalText" layoutX="15.0" layoutY="51.0" prefHeight="25.0" prefWidth="280.0" />
+      <Button layoutX="38.0" layoutY="97.0" mnemonicParsing="false" onAction="#calculate" text="Закодировать" />
+      <Text layoutX="38.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Закодированное сообщение" />
+      <TextArea layoutX="38.0" layoutY="190.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>
